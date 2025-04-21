@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #0077ff;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.email-section {
+  margin-top: 20px;
+}
+
+.email-list-container {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.email-container {
+  padding: 10px;
+}
+
+.email-card {
+  background: #eef3f8;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 5px solid #0077ff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.email-card h3 {
+  margin-top: 0;
+  font-size: 1.4rem;
+  color: #0077ff;
+}
+
+.email-card p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.action-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+button {
+  padding: 12px 25px;
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #005dc1;
+  transform: scale(1.05);
+}
+
+button:focus {
+  outline: none;
+}
+
+.output-container {
+  margin-top: 20px;
+  padding: 20px;
+  background: #f7f7f7;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  color: #444;
+}
+
+.output-container p {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+      padding: 20px;
+  }
+
+  h1 {
+      font-size: 2rem;
+  }
+
+  .email-card {
+      padding: 15px;
+  }
+
+  button {
+      width: 100%;
+      padding: 14px;
+  }
+}
